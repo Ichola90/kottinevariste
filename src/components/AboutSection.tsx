@@ -17,14 +17,14 @@ interface CareerMilestone {
 const careerMilestones: CareerMilestone[] = [
   {
     id: 1,
-    period: "[Année à confirmer]",
+    period: "2025-Présent",
     institution: "Université d'Abomey-Calavi (UAC), Bénin",
-    role: "Maître de Conférences (CAMES) en Anglais / Didactique des Langues",
+    role: "Maître de Conférences des universités (CAMES), Didactique des langues (anglais)",
     description: "Promotion au grade CAMES de Maître de Conférences. Enseignement, recherche et encadrement en didactique de l'anglais langue étrangère (EFL), avec une expertise reconnue en ingénierie de la formation, conception de curricula et consultance auprès d'institutions éducatives et d'ONG."
   },
   {
     id: 2,
-    period: "[Année à confirmer]",
+    period: "2020-2025",
     institution: "Université d'Abomey-Calavi (UAC), Bénin",
     role: "Maître Assistant en Anglais",
     description: "Enseignements en Didactique de l'Anglais, Méthodologie de la Recherche et Techniques d'Expression Orale, intégrant le jeu de rôle, le théâtre-processus et l'approche par tâches (Task-Based Language Teaching) pour développer les compétences communicatives des étudiants."
