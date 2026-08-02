@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { ArrowDown, Mail } from 'lucide-react';
+import React, { useEffect, useRef, useState } from "react";
+import { ArrowDown, Mail } from "lucide-react";
 
 const HeroSection: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -32,17 +32,23 @@ const HeroSection: React.FC = () => {
       <div
         aria-hidden
         className="pointer-events-none absolute -top-16 -left-10 w-72 h-72 sm:w-96 sm:h-96 rounded-full blur-3xl opacity-20 bg-blue-400 dark:bg-blue-600 mix-blend-multiply dark:mix-blend-soft-light transition-transform duration-300 ease-out motion-reduce:!transform-none"
-        style={{ transform: `translate(${pointer.x * 14}px, ${pointer.y * 10}px)` }}
+        style={{
+          transform: `translate(${pointer.x * 14}px, ${pointer.y * 10}px)`,
+        }}
       />
       <div
         aria-hidden
         className="pointer-events-none absolute top-1/3 -right-16 w-80 h-80 sm:w-[28rem] sm:h-[28rem] rounded-full blur-3xl opacity-20 bg-indigo-400 dark:bg-indigo-600 mix-blend-multiply dark:mix-blend-soft-light transition-transform duration-300 ease-out motion-reduce:!transform-none"
-        style={{ transform: `translate(${pointer.x * -18}px, ${pointer.y * 14}px)` }}
+        style={{
+          transform: `translate(${pointer.x * -18}px, ${pointer.y * 14}px)`,
+        }}
       />
       <div
         aria-hidden
         className="pointer-events-none absolute bottom-0 left-1/3 w-64 h-64 rounded-full blur-3xl opacity-20 bg-purple-400 dark:bg-purple-600 mix-blend-multiply dark:mix-blend-soft-light transition-transform duration-300 ease-out motion-reduce:!transform-none"
-        style={{ transform: `translate(${pointer.x * 10}px, ${pointer.y * -8}px)` }}
+        style={{
+          transform: `translate(${pointer.x * 10}px, ${pointer.y * -8}px)`,
+        }}
       />
 
       {/* Filigrane : lignes de cahier discrètes, ancrage thématique (pédagogie) */}
@@ -51,7 +57,7 @@ const HeroSection: React.FC = () => {
         className="pointer-events-none absolute inset-0 opacity-[0.04] dark:opacity-[0.06]"
         style={{
           backgroundImage:
-            'repeating-linear-gradient(to bottom, transparent, transparent 42px, currentColor 43px)',
+            "repeating-linear-gradient(to bottom, transparent, transparent 42px, currentColor 43px)",
         }}
       />
 
@@ -60,25 +66,28 @@ const HeroSection: React.FC = () => {
           {/* Colonne texte */}
           <div className="lg:w-1/2 w-full">
             <div className="max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
-    
-              <h1 className={`reveal reveal-2 ${mounted ? 'is-in' : ''} font-display text-4xl sm:text-5xl md:text-6xl lg:text-[4.2rem] font-medium leading-[1.05] text-gray-900 dark:text-white mb-6 relative`}>
-                <span className="block">Dr (MC) Kottin</span>
+              <h1
+                className={`reveal reveal-2 ${mounted ? "is-in" : ""} font-display text-4xl sm:text-5xl md:text-6xl lg:text-[3.2rem] font-medium leading-[1.05] text-gray-900 dark:text-white mb-6 relative`}
+              >
+                <span className="block">Dr KOTTIN Assogba </span>
                 <span className="relative inline-block bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
                   Evariste
                   {/* Note manuscrite en marge, style "correction de copie" */}
                   <span
                     aria-hidden
-                    className="hand-note absolute -top-7 sm:-top-8 left-[92%] sm:left-full sm:ml-3 whitespace-nowrap text-base sm:text-lg text-rose-500 dark:text-rose-400 rotate-[-6deg] select-none"
+                    className="hand-note absolute -top-3 sm:-top-3 left-[92%] sm:left-full sm:ml-3 whitespace-nowrap text-base sm:text-lg text-rose-500 dark:text-rose-400 rotate-[-6deg] select-none"
                   >
-                    Maître de Conférences
+                    Maître de Conférences (CAMES)
                   </span>
                 </span>
               </h1>
 
-              <p className={`reveal reveal-3 ${mounted ? 'is-in' : ''} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4`}>
-                Maître de Conférences en Anglais et{' '}
+              <p
+                className={`reveal reveal-3 ${mounted ? "is-in" : ""} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4`}
+              >
+                Maître de Conférences des Universités (CAMES) en{" "}
                 <span className="underline-draw relative inline-block font-medium text-gray-900 dark:text-white">
-                  Didactique des Langues
+                  Didactique des Langues (Anglais)
                   <svg
                     aria-hidden
                     className="underline-svg absolute left-0 -bottom-1 w-full h-2"
@@ -93,15 +102,24 @@ const HeroSection: React.FC = () => {
                       strokeLinecap="round"
                     />
                   </svg>
-                </span>{' '}
-                à l&apos;Université d&apos;Abomey-Calavi (Bénin).
+                </span>{" "}
+                &middot; Docteur Unique (UAC, 2016) &middot; Université
+                d&apos;Abomey-Calavi (Bénin).
               </p>
 
-              <p className={`reveal reveal-3 ${mounted ? 'is-in' : ''} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-9`}>
-                Enseignant-chercheur spécialisé dans l&apos;enseignement/apprentissage de l&apos;anglais langue étrangère (EFL), l&apos;innovation pédagogique et l&apos;intégration des TIC et de l&apos;IA dans l&apos;éducation.
+              <p
+                className={`reveal reveal-3 ${mounted ? "is-in" : ""} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-9`}
+              >
+                Enseignant-chercheur, ingénieur de la formation et encadreur
+                scientifique, spécialiste du Task-Based Language Teaching, du
+                jeu de rôle et des techniques dramatiques au service de la
+                compétence pragmatique, de l&apos;ingénierie didactique et de
+                l&apos;innovation pédagogique.
               </p>
 
-              <div className={`reveal reveal-4 ${mounted ? 'is-in' : ''} flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 sm:gap-4`}>
+              <div
+                className={`reveal reveal-4 ${mounted ? "is-in" : ""} flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 sm:gap-4`}
+              >
                 <a
                   href="#projects"
                   className="btn-magnetic group w-full sm:w-auto text-center px-7 py-3.5 rounded-full font-medium bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg hover:shadow-xl transition-all"
@@ -120,7 +138,9 @@ const HeroSection: React.FC = () => {
           </div>
 
           {/* Colonne portrait */}
-          <div className={`reveal reveal-2 ${mounted ? 'is-in' : ''} lg:w-1/2 flex justify-center w-full`}>
+          <div
+            className={`reveal reveal-2 ${mounted ? "is-in" : ""} lg:w-1/2 flex justify-center w-full`}
+          >
             <div className="relative w-full max-w-xs sm:max-w-sm">
               {/* Anneau pointillé rotatif, façon tampon institutionnel */}
               <svg
@@ -129,12 +149,30 @@ const HeroSection: React.FC = () => {
                 viewBox="0 0 200 200"
               >
                 <defs>
-                  <path id="badgeCircle" d="M 100,100 m -92,0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0" />
+                  <path
+                    id="badgeCircle"
+                    d="M 100,100 m -92,0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0"
+                  />
                 </defs>
-                <circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" strokeWidth="1.4" strokeDasharray="1 7" strokeLinecap="round" />
-                <text fontSize="9" letterSpacing="2.5" fill="currentColor" className="font-medium uppercase">
+                <circle
+                  cx="100"
+                  cy="100"
+                  r="92"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.4"
+                  strokeDasharray="1 7"
+                  strokeLinecap="round"
+                />
+                <text
+                  fontSize="7"
+                  letterSpacing="2.5"
+                  fill="currentColor"
+                  className="font-medium uppercase"
+                >
                   <textPath href="#badgeCircle" startOffset="2%">
-                    FLLAC &middot; UAC &middot; Didactique de l&apos;Anglais &middot;
+                
+                    Dr &middot; KOTTIN &middot; Assogba &middot; Evariste, &middot; Maître &middot; de &middot; Conférences &middot; des &middot; Universités &middot; (CAMES) &middot;
                   </textPath>
                 </text>
               </svg>
@@ -142,7 +180,7 @@ const HeroSection: React.FC = () => {
               <div className="relative rounded-full p-1.5 bg-gradient-to-br from-blue-500/40 via-transparent to-indigo-600/30">
                 <img
                   src={`${import.meta.env.BASE_URL}images/kottin-evariste.jpg`}
-                  alt="Dr (MC) Assogba Evariste Kottin"
+                  alt="Dr KOTTIN Assogba Evariste"
                   width={384}
                   height={384}
                   className="rounded-full w-full aspect-square object-cover border-4 border-white dark:border-gray-900 shadow-2xl shadow-indigo-900/10"
@@ -156,9 +194,11 @@ const HeroSection: React.FC = () => {
         <a
           href="#projects"
           aria-label="Défiler vers les publications"
-          className={`reveal reveal-4 ${mounted ? 'is-in' : ''} hidden md:flex absolute bottom-2 left-1/2 -translate-x-1/2 flex-col items-center gap-1.5 text-gray-400 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors`}
+          className={`reveal reveal-4 ${mounted ? "is-in" : ""} hidden md:flex absolute bottom-2 left-1/2 -translate-x-1/2 flex-col items-center gap-1.5 text-gray-400 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors`}
         >
-          <span className="text-[10px] tracking-[0.2em] uppercase">Découvrir</span>
+          <span className="text-[10px] tracking-[0.2em] uppercase">
+            Découvrir
+          </span>
           <ArrowDown size={18} className="scroll-bounce" />
         </a>
       </div>

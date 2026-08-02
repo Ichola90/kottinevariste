@@ -38,7 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleDarkMode }) => {
           aria-label="Retour à l'accueil, Dr Kottin Evariste"
           className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent"
         >
-          Dr <span className="font-light">Kottin Evariste</span>
+          Dr KOTTIN<span className="font-light"></span>
         </a>
 
         {/* Desktop Navigation */}

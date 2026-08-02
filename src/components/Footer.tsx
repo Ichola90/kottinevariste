@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               href="#"
               className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent mb-4 inline-block"
             >
-              Dr <span className="font-light">Kottin Evariste</span>
+              Dr KOTTIN<span className="font-light"></span>
             </a>
             <p className="text-gray-600 dark:text-gray-400 max-w-xs mt-3">
               Maître de Conférences à l'Université d'Abomey-Calavi (Bénin),

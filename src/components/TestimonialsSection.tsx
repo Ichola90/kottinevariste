@@ -10,7 +10,7 @@ interface Testimonial {
   avatar: string;
 }
 
-// ⚠️ PLACEHOLDERS — À REMPLACER PAR DR KOTTIN
+// ⚠️ PLACEHOLDERS, À REMPLACER PAR DR KOTTIN
 // Ces témoignages sont des exemples vides à compléter avec de vrais retours
 // (collègues, co-auteurs, étudiants...). Ne pas publier tel quel.
 const testimonials: Testimonial[] = [
@@ -19,7 +19,7 @@ const testimonials: Testimonial[] = [
     name: "[Nom du collègue à ajouter]",
     role: "[Fonction à préciser]",
     institution: "[Institution à préciser]",
-    text: "[Témoignage à compléter par Dr Kottin — retour d'un collègue ou co-auteur sur une collaboration de recherche]",
+    text: "[Témoignage à compléter par Dr Kottin, retour d'un collègue ou co-auteur sur une collaboration de recherche]",
     avatar: `${import.meta.env.BASE_URL}images/testimonial-placeholder-1.jpg`
   },
   {
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     name: "[Nom de l'étudiant(e) à ajouter]",
     role: "[Niveau / filière à préciser]",
     institution: "Université d'Abomey-Calavi",
-    text: "[Témoignage à compléter par Dr Kottin — retour d'un(e) étudiant(e) sur son enseignement]",
+    text: "[Témoignage à compléter par Dr Kottin, retour d'un(e) étudiant(e) sur son enseignement]",
     avatar: `${import.meta.env.BASE_URL}images/testimonial-placeholder-2.jpg`
   },
   {
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
     name: "[Nom du co-auteur à ajouter]",
     role: "[Fonction à préciser]",
     institution: "[Institution à préciser]",
-    text: "[Témoignage à compléter par Dr Kottin — retour sur une publication ou communication commune]",
+    text: "[Témoignage à compléter par Dr Kottin, retour sur une publication ou communication commune]",
     avatar: `${import.meta.env.BASE_URL}images/testimonial-placeholder-3.jpg`
   }
 ];
@@ -87,7 +87,7 @@ const TestimonialsSection: React.FC = () => {
                 <div>
                   <h4 className="text-xl font-semibold text-gray-900 dark:text-white">{testimonials[currentIndex].name}</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    {testimonials[currentIndex].role} — {testimonials[currentIndex].institution}
+                    {testimonials[currentIndex].role}, {testimonials[currentIndex].institution}
                   </p>
                 </div>
               </div>

@@ -15,35 +15,45 @@ const researchAreas: ResearchArea[] = [
     icon: <BookOpen size={24} />,
     items: [
       "Didactique de l'anglais langue étrangère (EFL)",
-      "Linguistique appliquée",
-      "Innovation pédagogique",
-      "Langues nationales du Bénin"
+      "Task-Based Language Teaching",
+      "Compétence pragmatique",
+      "Ingénierie didactique"
     ]
   },
   {
     id: 2,
-    category: "Méthodologie",
+    category: "Techniques pédagogiques",
     icon: <Lightbulb size={24} />,
     items: [
-      "Recherches à méthodes mixtes",
-      "Revues systématiques de littérature",
-      "Enquêtes qualitatives et quantitatives",
-      "Entretiens avec enseignants et apprenants"
+      "Jeu de rôle (Role-Play)",
+      "Techniques dramatiques",
+      "Théâtre-processus",
+      "Approche par tâches"
     ]
   },
   {
     id: 3,
-    category: "Thématiques d'enseignement",
+    category: "Ingénierie de la formation",
     icon: <GraduationCap size={24} />,
     items: [
-      "Compréhension orale en anglais",
-      "Développement de l'esprit critique",
-      "Intégration des TIC en éducation",
-      "Usage de l'IA dans l'apprentissage des langues"
+      "Conception de curricula",
+      "Modules de renforcement des capacités",
+      "Dispositifs d'évaluation par compétences",
+      "Révision de programmes de formation"
     ]
   },
   {
     id: 4,
+    category: "Encadrement scientifique",
+    icon: <Users size={24} />,
+    items: [
+      "Direction de mémoires et de thèses (Master, Doctorat)",
+      "Formation d'enseignants",
+      "Orientation vers des sujets à fort impact sociétal"
+    ]
+  },
+  {
+    id: 5,
     category: "Langues de travail",
     icon: <Languages size={24} />,
     items: [
@@ -52,31 +62,21 @@ const researchAreas: ResearchArea[] = [
     ]
   },
   {
-    id: 5,
-    category: "Collaboration scientifique",
-    icon: <Users size={24} />,
-    items: [
-      "Co-publications avec des collègues de l'UAC",
-      "Travaux avec des chercheurs d'autres universités ouest-africaines",
-      "Encadrement et échanges pédagogiques"
-    ]
-  },
-  {
     id: 6,
-    category: "Diffusion scientifique",
+    category: "Diffusion et expertise",
     icon: <Presentation size={24} />,
     items: [
       "Publications dans des revues scientifiques (RILALE, Ziglôbitha)",
       "Communications lors de colloques internationaux",
-      "Participation à des comités de session (rapporteur)"
+      "Consultance auprès d'institutions éducatives et d'ONG"
     ]
   }
 ];
 
 const keywords = [
-  "EFL", "Didactique des langues", "Linguistique appliquée", "Langues nationales",
-  "Esprit critique", "TIC en éducation", "Intelligence artificielle", "Compréhension orale",
-  "Recherche-action", "Éducation inclusive", "Enseignement secondaire", "Enseignement supérieur"
+  "EFL", "Didactique des langues", "Task-Based Language Teaching", "Jeu de rôle",
+  "Techniques dramatiques", "Théâtre-processus", "Compétence pragmatique", "Ingénierie didactique",
+  "Innovation pédagogique", "Ingénierie de la formation", "Encadrement doctoral", "Consultance"
 ];
 
 const ResearchAreasSection: React.FC = () => {
@@ -86,7 +86,7 @@ const ResearchAreasSection: React.FC = () => {
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Domaines de recherche</h2>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Enseignant-chercheur en didactique de l'anglais langue étrangère, mes travaux portent sur l'innovation pédagogique, les langues nationales du Bénin et l'intégration des nouvelles technologies dans l'éducation.
+            Enseignant-chercheur en didactique de l'anglais langue étrangère, mes travaux portent sur le Task-Based Language Teaching, le jeu de rôle et les techniques dramatiques, au service du développement de la compétence pragmatique et d'une pédagogie créative et contextualisée.
           </p>
         </div>
 

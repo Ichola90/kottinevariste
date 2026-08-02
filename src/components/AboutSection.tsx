@@ -9,30 +9,32 @@ interface CareerMilestone {
   description: string;
 }
 
-// ⚠️ Seul le grade final (Maître de Conférences) et l'institution (UAC) sont confirmés
-// par des sources publiques. Dates précises et postes intermédiaires à faire valider
+// ⚠️ Le grade CAMES (Maître de Conférences), l'institution (UAC) et le doctorat
+// (Doctorat Unique, UAC, 2016, Didactique de la Langue Anglaise) sont confirmés
+// par le document de parcours transmis. L'année de promotion au grade de Maître
+// de Conférences et les détails du poste de Maître Assistant restent à valider
 // par Dr Kottin avant publication.
 const careerMilestones: CareerMilestone[] = [
   {
     id: 1,
     period: "[Année à confirmer]",
     institution: "Université d'Abomey-Calavi (UAC), Bénin",
-    role: "Maître de Conférences en Anglais / Didactique des Langues",
-    description: "Promotion au grade CAMES de Maître de Conférences (42ème session), après plusieurs années en tant que Maître Assistant. Enseignement et recherche en didactique de l'anglais langue étrangère (EFL)."
+    role: "Maître de Conférences (CAMES) en Anglais / Didactique des Langues",
+    description: "Promotion au grade CAMES de Maître de Conférences. Enseignement, recherche et encadrement en didactique de l'anglais langue étrangère (EFL), avec une expertise reconnue en ingénierie de la formation, conception de curricula et consultance auprès d'institutions éducatives et d'ONG."
   },
   {
     id: 2,
     period: "[Année à confirmer]",
     institution: "Université d'Abomey-Calavi (UAC), Bénin",
     role: "Maître Assistant en Anglais",
-    description: "[À compléter par Dr Kottin — missions d'enseignement, encadrement, responsabilités pédagogiques durant cette période]"
+    description: "Enseignements en Didactique de l'Anglais, Méthodologie de la Recherche et Techniques d'Expression Orale, intégrant le jeu de rôle, le théâtre-processus et l'approche par tâches (Task-Based Language Teaching) pour développer les compétences communicatives des étudiants."
   },
   {
     id: 3,
-    period: "[Année à confirmer]",
-    institution: "[Établissement de formation doctorale à préciser]",
-    role: "[Titre du doctorat à préciser]",
-    description: "[À compléter par Dr Kottin — sujet de thèse, université, année de soutenance]"
+    period: "2016",
+    institution: "Université d'Abomey-Calavi (UAC), Bénin",
+    role: "Doctorat Unique, Didactique de la Langue Anglaise",
+    description: "Soutenance d'un Doctorat Unique consacré au Task-Based Language Teaching, au jeu de rôle et aux techniques dramatiques au service du développement de la compétence pragmatique en anglais langue étrangère, posant les bases d'une pédagogie créative et contextualisée."
   }
 ];
 
@@ -52,8 +54,11 @@ const AboutSection: React.FC = () => {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              [Paragraphe à compléter par Dr Kottin — son propre parcours, ce qui l'a amené vers la
-              recherche en didactique de l'anglais, sa vision de l'enseignement]
+              Convaincu que l'éducation est le plus sûr levier de transformation, j'oriente mes travaux
+              et mon enseignement vers une pédagogie créative, incarnée et contextualisée : le jeu de
+              rôle, le théâtre-processus et l'approche par tâches (Task-Based Language Teaching) comme
+              leviers pour transformer l'apprenant en acteur social compétent, capable de communiquer
+              avec justesse, élégance et efficacité en anglais.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
@@ -79,8 +84,8 @@ const AboutSection: React.FC = () => {
               </div>
 
               <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg text-center">
-                <div className="text-xl sm:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">[?]</div>
-                <div className="text-gray-600 dark:text-gray-400 text-sm">[Nombre de publications à confirmer]</div>
+                <div className="text-xl sm:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-1">2016</div>
+                <div className="text-gray-600 dark:text-gray-400 text-sm">Doctorat Unique (UAC)</div>
               </div>
             </div>
           </div>
@@ -118,9 +123,9 @@ const AboutSection: React.FC = () => {
               <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
                 <div className="flex items-center mb-3">
                   <Award size={20} className="text-blue-600 dark:text-blue-400 mr-2 shrink-0" />
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">[Diplôme à préciser — Doctorat, Master...]</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Doctorat Unique, Didactique de la Langue Anglaise</h4>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 mb-1">[Établissement et année à confirmer par Dr Kottin]</p>
+                <p className="text-gray-600 dark:text-gray-400 mb-1">Université d'Abomey-Calavi (UAC), 2016</p>
 
                 <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
                   <div className="flex items-center mb-3">
