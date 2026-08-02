@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
                 &middot; Enseignant-Chercheur,  &middot; Département  &middot; d'Anglais,  &middot; FLLAC &middot; Université
                 d&apos;Abomey-Calavi (Bénin).
               </p>
-
+{/* 
               <p
                 className={`reveal reveal-3 ${mounted ? "is-in" : ""} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-9`}
               >
@@ -115,7 +115,7 @@ const HeroSection: React.FC = () => {
                 jeu de rôle et des techniques dramatiques au service de la
                 compétence pragmatique, de l&apos;ingénierie didactique et de
                 l&apos;innovation pédagogique.
-              </p>
+              </p> */}
 
               <div
                 className={`reveal reveal-4 ${mounted ? "is-in" : ""} flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 sm:gap-4`}
