@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
               >
                 Maître de Conférences des Universités (CAMES) en{" "}
                 <span className="underline-draw relative inline-block font-medium text-gray-900 dark:text-white">
-                  Didactique des Langues (Anglais)
+                  Didactique des langues (anglais)
                   <svg
                     aria-hidden
                     className="underline-svg absolute left-0 -bottom-1 w-full h-2"
