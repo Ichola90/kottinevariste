@@ -103,7 +103,7 @@ const HeroSection: React.FC = () => {
                     />
                   </svg>
                 </span>{" "}
-                &middot; Doctorat Unique (UAC, 2016) &middot; Université
+                &middot; Enseignant-Chercheur,  &middot; Département  &middot; d'Anglais,  &middot; FLLAC &middot; Université
                 d&apos;Abomey-Calavi (Bénin).
               </p>
 
