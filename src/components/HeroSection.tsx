@@ -179,7 +179,7 @@ const HeroSection: React.FC = () => {
 
               <div className="relative rounded-full p-1.5 bg-gradient-to-br from-blue-500/40 via-transparent to-indigo-600/30">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/kottin-evariste.jpg`}
+                  src={`${import.meta.env.BASE_URL}images/kottin-evariste.png`}
                   alt="Dr KOTTIN Assogba Evariste"
                   width={384}
                   height={384}
