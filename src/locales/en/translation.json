@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Home",
+    "publications": "Publications",
+    "research": "Research Areas",
+    "about": "About",
+    "contact": "Contact",
+    "toggleDarkMode": "Enable dark mode",
+    "toggleMenu": "Toggle navigation menu",
+    "backHome": "Back to home, Dr Kottin Evariste",
+    "navigation": "Navigation",
+    "researchTitle": "Research",
+    "collaborations": "Collaborations",
+    "institution": "Institution",
+    "availability": "Availability"
+  },
+  "hero": {
+    "title": "Dr KOTTIN Assogba",
+    "name": "Evariste",
+    "role": "Associate Professor (CAMES)",
+    "description": "Associate Professor of Universities (CAMES) in Didactics of Languages (English)",
+    "specialty": "Teacher-researcher, Department of English, FLLAC, University of Abomey-Calavi (Benin)",
+    "ctaProjects": "View my publications",
+    "ctaContact": "Contact me",
+    "scroll": "Discover",
+    "scrollToPublications": "Scroll to publications"
+  },
+  "about": {
+    "title": "About",
+    "intro1": "Associate Professor at the University of Abomey-Calavi (Benin), I dedicate my teaching and research to English as a Foreign Language (EFL) didactics, with a particular interest in pedagogical innovation and the integration of new technologies into language learning.",
+    "intro2": "Convinced that education is the safest lever for transformation, I orient my work and teaching toward creative, embodied and contextualized pedagogy: role play, theatre-process and task-based learning as levers for transforming the learner into a competent social actor able to communicate with accuracy, elegance and efficiency in English.",
+    "intro3": "My work is published in scientific journals such as RILALE and Ziglôbitha, and presented at international conferences, often in collaboration with colleagues from UAC and other West African universities.",
+    "academicPath": "Academic path",
+    "education": "Education",
+    "degree": "Doctorate, English Language Didactics",
+    "publicationsLink": "Find all my articles and scientific communications in the Publications section below.",
+    "stats": {
+      "grade": "CAMES grade",
+      "institution": "University of Abomey-Calavi",
+      "field": "EFL didactics",
+      "doctorate": "Doctorate (UAC)"
+    },
+    "milestones": {
+      "1": {
+        "period": "2025-Present",
+        "institution": "University of Abomey-Calavi (UAC), Benin",
+        "role": "Professor (CAMES), Didactics of languages (English)",
+        "description": "Promotion to the CAMES grade of Professor. Teaching, research and supervision in EFL didactics, with recognized expertise in training engineering, curriculum design and consulting for educational institutions and NGOs."
+      },
+      "2": {
+        "period": "2020-2025",
+        "institution": "University of Abomey-Calavi (UAC), Benin",
+        "role": "Assistant Professor in English",
+        "description": "Teaching in English Didactics, Research Methodology and Oral Expression Techniques, integrating role play, theatre-process and Task-Based Language Teaching to develop students' communicative competence."
+      },
+      "3": {
+        "period": "2016",
+        "institution": "University of Abomey-Calavi (UAC), Benin",
+        "role": "Doctorate, English Language Didactics",
+        "description": "Defence of a doctoral thesis devoted to Task-Based Language Teaching, role play and dramatic techniques for the development of pragmatic competence in English as a foreign language."
+      }
+    }
+  },
+  "skills": {
+    "title": "Research areas",
+    "intro": "Teacher-researcher in English as a Foreign Language didactics, my work focuses on Task-Based Language Teaching, role play and dramatic techniques, in service of pragmatic competence and creative, contextualized pedagogy.",
+    "keywordsTitle": "Research keywords",
+    "areas": {
+      "englishDidactics": "English as a Foreign Language Didactics",
+      "taskBased": "Task-Based Language Teaching",
+      "pragmaticCompetence": "Pragmatic competence",
+      "didacticEngineering": "Didactic engineering",
+      "pedagogicalTechniques": "Pedagogical techniques",
+      "rolePlay": "Role play",
+      "dramaticTechniques": "Dramatic techniques",
+      "theatreProcess": "Theatre-process",
+      "tasksApproach": "Task-based approach",
+      "trainingEngineering": "Training engineering",
+      "curriculumDesign": "Curriculum design",
+      "capacityBuilding": "Capacity-building modules",
+      "competencyAssessment": "Competency-based assessment devices",
+      "programRevision": "Training program review",
+      "scientificMentoring": "Scientific mentoring",
+      "thesisDirection": "Master's and doctoral thesis supervision",
+      "teacherTraining": "Teacher training",
+      "socialImpact": "Orientation toward high-impact societal subjects",
+      "workingLanguages": "Working languages",
+      "french": "French",
+      "englishResearch": "English (research and teaching)",
+      "diffusion": "Dissemination and expertise",
+      "journalPublications": "Publications in scientific journals (RILALE, Ziglôbitha)",
+      "conferenceCommunications": "Communications at international conferences",
+      "consulting": "Consulting with educational institutions and NGOs"
+    },
+    "keywords": [
+      "EFL",
+      "Language didactics",
+      "Task-Based Language Teaching",
+      "Role play",
+      "Dramatic techniques",
+      "Theatre-process",
+      "Pragmatic competence",
+      "Didactic engineering",
+      "Pedagogical innovation",
+      "Training engineering",
+      "Doctoral supervision",
+      "Consulting"
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "A selection of research work on English as a Foreign Language teaching, language didactics and pedagogical innovation in Benin.",
+    "all": "All publications",
+    "featured": "Featured publications",
+    "read": "Read the article",
+    "pagination_one": "Page {{current}} of {{total}} · {{count}} publication",
+    "pagination_other": "Page {{current}} of {{total}} · {{count}} publications",
+    "type": {
+      "article": "Scientific article",
+      "communication": "Conference communication"
+    },
+    "withAuthors": "With {{authors}}",
+    "filterAria": "Publications pagination",
+    "prev": "Previous page",
+    "next": "Next page",
+    "readArticle": "Read the article"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "For any research collaboration proposal, co-publication, invitation to a conference or question about my work, do not hesitate to contact me.",
+    "coordinates": "Contact details",
+    "email": "Email",
+    "institution": "Institution",
+    "availability": "Availability",
+    "availabilityText": "Open to research collaborations, co-publications, participation in scientific committees and invitations to conferences or seminars.",
+    "sendMessage": "Send a message",
+    "successTitle": "Message sent successfully!",
+    "successText": "Thank you for your message, a response will be sent to you shortly.",
+    "name": "Your name",
+    "emailLabel": "Your email",
+    "subject": "Subject",
+    "message": "Message",
+    "sending": "Sending in progress...",
+    "submit": "Send the message",
+    "error": "The message could not be sent. Please try again later.",
+    "research": "Research"
+  },
+  "footer": {
+    "bio": "Associate Professor at the University of Abomey-Calavi (Benin), specialized in English as a Foreign Language didactics and pedagogical innovation.",
+    "navigation": "Navigation",
+    "home": "Home",
+    "publications": "Publications",
+    "research": "Research areas",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Research",
+    "communications": "Communications",
+    "didactics": "English didactics",
+    "collaborations": "Collaborations",
+    "rights": "All rights reserved"
+  }
+}

@@ -1,7 +1,10 @@
 import React from "react";
 import { Mail, BookMarked, GraduationCap, Linkedin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 pt-12 sm:pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6">
@@ -14,9 +17,7 @@ const Footer: React.FC = () => {
               Dr KOTTIN<span className="font-light"></span>
             </a>
             <p className="text-gray-600 dark:text-gray-400 max-w-xs mt-3">
-              Maître de Conférences à l'Université d'Abomey-Calavi (Bénin),
-              spécialisé en didactique de l'anglais langue étrangère et en
-              innovation pédagogique.
+              {t("footer.bio")}
             </p>
 
             <div className="flex space-x-4 mt-6">
@@ -66,7 +67,7 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                Navigation
+                {t("footer.navigation")}
               </h4>
               <ul className="space-y-2">
                 <li>
@@ -74,7 +75,7 @@ const Footer: React.FC = () => {
                     href="#home"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Accueil
+                    {t("footer.home")}
                   </a>
                 </li>
                 <li>
@@ -82,7 +83,7 @@ const Footer: React.FC = () => {
                     href="#projects"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Publications
+                    {t("footer.publications")}
                   </a>
                 </li>
                 <li>
@@ -90,7 +91,7 @@ const Footer: React.FC = () => {
                     href="#skills"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Domaines de recherche
+                    {t("footer.research")}
                   </a>
                 </li>
                 <li>
@@ -98,7 +99,7 @@ const Footer: React.FC = () => {
                     href="#about"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    À propos
+                    {t("footer.about")}
                   </a>
                 </li>
                 <li>
@@ -106,7 +107,7 @@ const Footer: React.FC = () => {
                     href="#contact"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Contact
+                    {t("footer.contact")}
                   </a>
                 </li>
               </ul>
@@ -114,18 +115,16 @@ const Footer: React.FC = () => {
 
             <div>
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                Recherche
+                {t("footer.search")}
               </h4>
               <ul className="space-y-2">
-                <li>
-                 
-                </li>
+                <li></li>
                 <li>
                   <a
                     href="#projects"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Communications
+                    {t("footer.communications")}
                   </a>
                 </li>
                 <li>
@@ -133,18 +132,16 @@ const Footer: React.FC = () => {
                     href="#skills"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Didactique de l'anglais
+                    {t("footer.didactics")}
                   </a>
                 </li>
-                <li>
-                  
-                </li>
+                <li></li>
                 <li>
                   <a
                     href="#contact"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
-                    Collaborations
+                    {t("footer.collaborations")}
                   </a>
                 </li>
               </ul>
@@ -152,7 +149,7 @@ const Footer: React.FC = () => {
 
             <div className="col-span-2 md:col-span-1">
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                Contact
+                {t("footer.contact")}
               </h4>
               <ul className="space-y-2">
                 <li className="flex items-center text-gray-600 dark:text-gray-400">
@@ -217,7 +214,8 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-200 dark:border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
             <p className="text-gray-600 dark:text-gray-400 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Dr Kottin Evariste. Tous droits
+              © {new Date().getFullYear()} Dr Kottin Evariste.{" "}
+              {t("footer.rights")}
               réservés.
             </p>
           </div>

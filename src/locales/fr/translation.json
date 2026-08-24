@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "publications": "Publications",
+    "research": "Domaines de recherche",
+    "about": "À propos",
+    "contact": "Contact",
+    "toggleDarkMode": "Activer le mode sombre",
+    "toggleMenu": "Basculer le menu de navigation",
+    "backHome": "Retour à l'accueil, Dr Kottin Evariste",
+    "navigation": "Navigation",
+    "researchTitle": "Recherche",
+    "collaborations": "Collaborations",
+    "institution": "Institution",
+    "availability": "Disponibilité"
+  },
+  "hero": {
+    "title": "Dr KOTTIN Assogba",
+    "name": "Evariste",
+    "role": "Maître de Conférences (CAMES)",
+    "description": "Maître de Conférences des Universités (CAMES) en Didactique des langues (anglais)",
+    "specialty": "Enseignant-Chercheur, Département d'Anglais, FLLAC, Université d'Abomey-Calavi (Bénin)",
+    "ctaProjects": "Voir mes publications",
+    "ctaContact": "Me contacter",
+    "scroll": "Découvrir",
+    "scrollToPublications": "Défiler vers les publications"
+  },
+  "about": {
+    "title": "À propos",
+    "intro1": "Maître de Conférences à l'Université d'Abomey-Calavi (Bénin), je consacre mon enseignement et ma recherche à la didactique de l'anglais langue étrangère (EFL), avec un intérêt particulier pour l'innovation pédagogique et l'intégration des nouvelles technologies dans l'apprentissage des langues.",
+    "intro2": "Convaincu que l'éducation est le plus sûr levier de transformation, j'oriente mes travaux et mon enseignement vers une pédagogie créative, incarnée et contextualisée : le jeu de rôle, le théâtre-processus et l'approche par tâches comme leviers pour transformer l'apprenant en acteur social compétent, capable de communiquer avec justesse, élégance et efficacité en anglais.",
+    "intro3": "Mes travaux sont publiés dans des revues scientifiques telles que RILALE et Ziglôbitha, et présentés lors de colloques internationaux, souvent en collaboration avec des collègues de l'UAC et d'autres universités ouest-africaines.",
+    "academicPath": "Parcours académique",
+    "education": "Formation",
+    "degree": "Doctorat Unique, Didactique de la Langue Anglaise",
+    "publicationsLink": "Retrouvez l'ensemble de mes articles et communications scientifiques dans la section Publications ci-dessous.",
+    "stats": {
+      "grade": "Grade CAMES",
+      "institution": "Université d'Abomey-Calavi",
+      "field": "Didactique de l'anglais",
+      "doctorate": "Doctorat Unique (UAC)"
+    },
+    "milestones": {
+      "1": {
+        "period": "2025-Présent",
+        "institution": "Université d'Abomey-Calavi (UAC), Bénin",
+        "role": "Maître de Conférences des universités (CAMES), Didactique des langues (anglais)",
+        "description": "Promotion au grade CAMES de Maître de Conférences. Enseignement, recherche et encadrement en didactique de l'anglais langue étrangère (EFL), avec une expertise reconnue en ingénierie de la formation, conception de curricula et consultance auprès d'institutions éducatives et d'ONG."
+      },
+      "2": {
+        "period": "2020-2025",
+        "institution": "Université d'Abomey-Calavi (UAC), Bénin",
+        "role": "Maître Assistant en Anglais",
+        "description": "Enseignements en Didactique de l'Anglais, Méthodologie de la Recherche et Techniques d'Expression Orale, intégrant le jeu de rôle, le théâtre-processus et l'approche par tâches (Task-Based Language Teaching) pour développer les compétences communicatives des étudiants."
+      },
+      "3": {
+        "period": "2016",
+        "institution": "Université d'Abomey-Calavi (UAC), Bénin",
+        "role": "Doctorat Unique, Didactique de la Langue Anglaise",
+        "description": "Soutenance d'un Doctorat Unique consacré au Task-Based Language Teaching, au jeu de rôle et aux techniques dramatiques au service du développement de la compétence pragmatique en anglais langue étrangère."
+      }
+    }
+  },
+  "skills": {
+    "title": "Domaines de recherche",
+    "intro": "Enseignant-chercheur en didactique de l'anglais langue étrangère, mes travaux portent sur le Task-Based Language Teaching, le jeu de rôle et les techniques dramatiques, au service du développement de la compétence pragmatique et d'une pédagogie créative et contextualisée.",
+    "keywordsTitle": "Mots-clés de recherche",
+    "areas": {
+      "englishDidactics": "Didactique de l'anglais langue étrangère (EFL)",
+      "taskBased": "Task-Based Language Teaching",
+      "pragmaticCompetence": "Compétence pragmatique",
+      "didacticEngineering": "Ingénierie didactique",
+      "pedagogicalTechniques": "Techniques pédagogiques",
+      "rolePlay": "Jeu de rôle (Role-Play)",
+      "dramaticTechniques": "Techniques dramatiques",
+      "theatreProcess": "Théâtre-processus",
+      "tasksApproach": "Approche par tâches",
+      "trainingEngineering": "Ingénierie de la formation",
+      "curriculumDesign": "Conception de curricula",
+      "capacityBuilding": "Modules de renforcement des capacités",
+      "competencyAssessment": "Dispositifs d'évaluation par compétences",
+      "programRevision": "Révision de programmes de formation",
+      "scientificMentoring": "Encadrement scientifique",
+      "thesisDirection": "Direction de mémoires et de thèses (Master, Doctorat)",
+      "teacherTraining": "Formation d'enseignants",
+      "socialImpact": "Orientation vers des sujets à fort impact sociétal",
+      "workingLanguages": "Langues de travail",
+      "french": "Français",
+      "englishResearch": "Anglais (recherche et enseignement)",
+      "diffusion": "Diffusion et expertise",
+      "journalPublications": "Publications dans des revues scientifiques (RILALE, Ziglôbitha)",
+      "conferenceCommunications": "Communications lors de colloques internationaux",
+      "consulting": "Consultance auprès d'institutions éducatives et d'ONG"
+    },
+    "keywords": [
+      "EFL",
+      "Didactique des langues",
+      "Task-Based Language Teaching",
+      "Jeu de rôle",
+      "Techniques dramatiques",
+      "Théâtre-processus",
+      "Compétence pragmatique",
+      "Ingénierie didactique",
+      "Innovation pédagogique",
+      "Ingénierie de la formation",
+      "Encadrement doctoral",
+      "Consultance"
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "Une sélection de travaux de recherche portant sur l'enseignement de l'anglais langue étrangère, la didactique des langues et l'innovation pédagogique au Bénin.",
+    "all": "Toutes les publications",
+    "featured": "Publications marquantes",
+    "read": "Lire l'article",
+    "pagination_one": "Page {{current}} sur {{total}} · {{count}} publication",
+    "pagination_other": "Page {{current}} sur {{total}} · {{count}} publications",
+    "type": {
+      "article": "Article scientifique",
+      "communication": "Communication à un colloque"
+    },
+    "withAuthors": "Avec {{authors}}",
+    "filterAria": "Pagination des publications",
+    "prev": "Page précédente",
+    "next": "Page suivante",
+    "readArticle": "Lire l'article"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Pour toute proposition de collaboration de recherche, co-publication, invitation à un colloque ou question sur mes travaux, n'hésitez pas à me contacter.",
+    "coordinates": "Coordonnées",
+    "email": "Email",
+    "institution": "Institution",
+    "availability": "Disponibilité",
+    "availabilityText": "Ouvert aux collaborations de recherche, co-publications, participations à des comités scientifiques et invitations à des colloques ou séminaires.",
+    "sendMessage": "Envoyer un message",
+    "successTitle": "Message envoyé avec succès !",
+    "successText": "Merci pour votre message, une réponse vous sera apportée prochainement.",
+    "name": "Votre nom",
+    "emailLabel": "Votre email",
+    "subject": "Sujet",
+    "message": "Message",
+    "sending": "Envoi en cours...",
+    "submit": "Envoyer le message",
+    "error": "L'envoi du message a échoué. Merci de réessayer plus tard.",
+    "research": "Recherche"
+  },
+  "footer": {
+    "bio": "Maître de Conférences à l'Université d'Abomey-Calavi (Bénin), spécialisé en didactique de l'anglais langue étrangère et en innovation pédagogique.",
+    "navigation": "Navigation",
+    "home": "Accueil",
+    "publications": "Publications",
+    "research": "Domaines de recherche",
+    "about": "À propos",
+    "contact": "Contact",
+    "search": "Recherche",
+    "communications": "Communications",
+    "didactics": "Didactique de l'anglais",
+    "collaborations": "Collaborations",
+    "rights": "Tous droits réservés"
+  }
+}

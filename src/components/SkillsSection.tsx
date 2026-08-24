@@ -1,5 +1,13 @@
-import React from 'react';
-import { BookOpen, Languages, Lightbulb, Users, GraduationCap, Presentation } from 'lucide-react';
+import React from "react";
+import {
+  BookOpen,
+  Languages,
+  Lightbulb,
+  Users,
+  GraduationCap,
+  Presentation,
+} from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface ResearchArea {
   id: number;
@@ -17,8 +25,8 @@ const researchAreas: ResearchArea[] = [
       "Didactique de l'anglais langue étrangère (EFL)",
       "Task-Based Language Teaching",
       "Compétence pragmatique",
-      "Ingénierie didactique"
-    ]
+      "Ingénierie didactique",
+    ],
   },
   {
     id: 2,
@@ -28,8 +36,8 @@ const researchAreas: ResearchArea[] = [
       "Jeu de rôle (Role-Play)",
       "Techniques dramatiques",
       "Théâtre-processus",
-      "Approche par tâches"
-    ]
+      "Approche par tâches",
+    ],
   },
   {
     id: 3,
@@ -39,8 +47,8 @@ const researchAreas: ResearchArea[] = [
       "Conception de curricula",
       "Modules de renforcement des capacités",
       "Dispositifs d'évaluation par compétences",
-      "Révision de programmes de formation"
-    ]
+      "Révision de programmes de formation",
+    ],
   },
   {
     id: 4,
@@ -49,17 +57,14 @@ const researchAreas: ResearchArea[] = [
     items: [
       "Direction de mémoires et de thèses (Master, Doctorat)",
       "Formation d'enseignants",
-      "Orientation vers des sujets à fort impact sociétal"
-    ]
+      "Orientation vers des sujets à fort impact sociétal",
+    ],
   },
   {
     id: 5,
     category: "Langues de travail",
     icon: <Languages size={24} />,
-    items: [
-      "Français",
-      "Anglais (recherche et enseignement)"
-    ]
+    items: ["Français", "Anglais (recherche et enseignement)"],
   },
   {
     id: 6,
@@ -68,25 +73,38 @@ const researchAreas: ResearchArea[] = [
     items: [
       "Publications dans des revues scientifiques (RILALE, Ziglôbitha)",
       "Communications lors de colloques internationaux",
-      "Consultance auprès d'institutions éducatives et d'ONG"
-    ]
-  }
+      "Consultance auprès d'institutions éducatives et d'ONG",
+    ],
+  },
 ];
 
 const keywords = [
-  "EFL", "Didactique des langues", "Task-Based Language Teaching", "Jeu de rôle",
-  "Techniques dramatiques", "Théâtre-processus", "Compétence pragmatique", "Ingénierie didactique",
-  "Innovation pédagogique", "Ingénierie de la formation", "Encadrement doctoral", "Consultance"
+  "EFL",
+  "Didactique des langues",
+  "Task-Based Language Teaching",
+  "Jeu de rôle",
+  "Techniques dramatiques",
+  "Théâtre-processus",
+  "Compétence pragmatique",
+  "Ingénierie didactique",
+  "Innovation pédagogique",
+  "Ingénierie de la formation",
+  "Encadrement doctoral",
+  "Consultance",
 ];
 
 const ResearchAreasSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="skills" className="py-16 sm:py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Domaines de recherche</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            {t("skills.title")}
+          </h2>
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Enseignant-chercheur en didactique de l'anglais langue étrangère, mes travaux portent sur le Task-Based Language Teaching, le jeu de rôle et les techniques dramatiques, au service du développement de la compétence pragmatique et d'une pédagogie créative et contextualisée.
+            {t("skills.intro")}
           </p>
         </div>
 
@@ -100,14 +118,18 @@ const ResearchAreasSection: React.FC = () => {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 mr-4 shrink-0">
                   {area.icon}
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">{area.category}</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">
+                  {area.category}
+                </h3>
               </div>
 
               <ul className="space-y-2">
                 {area.items.map((item, index) => (
                   <li key={index} className="flex items-start">
                     <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 mt-2 shrink-0"></span>
-                    <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">{item}</span>
+                    <span className="text-sm sm:text-base text-gray-700 dark:text-gray-300">
+                      {item}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -118,7 +140,7 @@ const ResearchAreasSection: React.FC = () => {
         {/* Keywords cloud */}
         <div className="mt-16 sm:mt-20">
           <h3 className="text-xl sm:text-2xl font-bold text-center mb-8 sm:mb-10 text-gray-900 dark:text-white">
-            Mots-clés de recherche
+            {t("skills.keywordsTitle")}
           </h3>
 
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3 max-w-3xl mx-auto">

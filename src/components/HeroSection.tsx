@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { ArrowDown, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const HeroSection: React.FC = () => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLElement>(null);
   const [pointer, setPointer] = useState({ x: 0, y: 0 });
   const [mounted, setMounted] = useState(false);
@@ -69,15 +71,14 @@ const HeroSection: React.FC = () => {
               <h1
                 className={`reveal reveal-2 ${mounted ? "is-in" : ""} font-display text-4xl sm:text-5xl md:text-6xl lg:text-[3.2rem] font-medium leading-[1.05] text-gray-900 dark:text-white mb-6 relative`}
               >
-                <span className="block">Dr KOTTIN Assogba </span>
+                <span className="block">{t("hero.title")}</span>
                 <span className="relative inline-block bg-gradient-to-r from-blue-500 to-indigo-600 bg-clip-text text-transparent">
-                  Evariste
-                  {/* Note manuscrite en marge, style "correction de copie" */}
+                  {t("hero.name")}
                   <span
                     aria-hidden
                     className="hand-note absolute -top-3 sm:-top-3 left-[92%] sm:left-full sm:ml-3 whitespace-nowrap text-base sm:text-lg text-rose-500 dark:text-rose-400 rotate-[-6deg] select-none"
                   >
-                    Maître de Conférences (CAMES)
+                    {t("hero.role")}
                   </span>
                 </span>
               </h1>
@@ -85,9 +86,9 @@ const HeroSection: React.FC = () => {
               <p
                 className={`reveal reveal-3 ${mounted ? "is-in" : ""} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4`}
               >
-                Maître de Conférences des Universités (CAMES) en{" "}
+               
                 <span className="underline-draw relative inline-block font-medium text-gray-900 dark:text-white">
-                  Didactique des langues (anglais)
+                  {t("hero.description")}
                   <svg
                     aria-hidden
                     className="underline-svg absolute left-0 -bottom-1 w-full h-2"
@@ -103,10 +104,9 @@ const HeroSection: React.FC = () => {
                     />
                   </svg>
                 </span>{" "}
-                &middot; Enseignant-Chercheur,  &middot; Département  &middot; d'Anglais,  &middot; FLLAC &middot; Université
-                d&apos;Abomey-Calavi (Bénin).
+                &middot; {t("hero.specialty")}
               </p>
-{/* 
+              {/* 
               <p
                 className={`reveal reveal-3 ${mounted ? "is-in" : ""} text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-9`}
               >
@@ -124,14 +124,14 @@ const HeroSection: React.FC = () => {
                   href="#projects"
                   className="btn-magnetic group w-full sm:w-auto text-center px-7 py-3.5 rounded-full font-medium bg-gradient-to-r from-blue-500 to-indigo-600 text-white shadow-lg hover:shadow-xl transition-all"
                 >
-                  Voir mes publications
+                  {t("hero.ctaProjects")}
                 </a>
                 <a
                   href="#contact"
                   className="btn-magnetic w-full sm:w-auto inline-flex items-center justify-center gap-2 text-center px-7 py-3.5 rounded-full font-medium border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
                 >
                   <Mail size={17} />
-                  Me contacter
+                  {t("hero.ctaContact")}
                 </a>
               </div>
             </div>
@@ -171,8 +171,9 @@ const HeroSection: React.FC = () => {
                   className="font-medium uppercase"
                 >
                   <textPath href="#badgeCircle" startOffset="2%">
-                
-                    Dr &middot; KOTTIN &middot; Assogba &middot; Evariste, &middot; Maître &middot; de &middot; Conférences &middot; des &middot; Universités &middot; (CAMES) &middot;
+                    Dr &middot; KOTTIN &middot; Assogba &middot; Evariste,
+                    &middot; Maître &middot; de &middot; Conférences &middot;
+                    des &middot; Universités &middot; (CAMES) &middot;
                   </textPath>
                 </text>
               </svg>
@@ -193,11 +194,11 @@ const HeroSection: React.FC = () => {
         {/* Indicateur de défilement */}
         <a
           href="#projects"
-          aria-label="Défiler vers les publications"
+          aria-label={t("hero.scrollToPublications")}
           className={`reveal reveal-4 ${mounted ? "is-in" : ""} hidden md:flex absolute bottom-2 left-1/2 -translate-x-1/2 flex-col items-center gap-1.5 text-gray-400 dark:text-gray-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors`}
         >
           <span className="text-[10px] tracking-[0.2em] uppercase">
-            Découvrir
+            {t("hero.scroll")}
           </span>
           <ArrowDown size={18} className="scroll-bounce" />
         </a>
